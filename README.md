@@ -4,14 +4,20 @@
 
 ## 一条命令安装(推荐,通用)
 
+先装好 Node.js(自带 npx)。然后在终端运行:
+
 ```bash
-npx skills add alex4524/kiroween-credits
+npx -y skills add https://github.com/alex4524/kiroween-credits -g -y
 ```
 
-按提示选你用的工具(Claude Code、Codex、Kiro 等),它会装到对应目录。需要先装 Node.js。
-我只测过「列出技能」,能识别到 kiroween-credits。实际装进各个工具,未验证。
+- `npx` 会自动下载安装工具 `skills`,不用先 `npm install`。
+- `-g` 装到你的用户目录,所有项目都能用。不加 `-g` 只装到当前文件夹。
+- 不加 `-y` 时,它会让你选要装给哪个工具(Claude Code、Codex 等)。
+- 想指定工具:加 `-a claude-code` 或 `-a codex`。
 
 装完对助手说:「帮我领 Kiroween 的 Kiro 额度」。
+
+实测(2026-11-14,macOS):完整链接和 `alex4524/kiroween-credits` 简写都能装,技能文件落到了 `.claude/skills` 和 `.agents/skills`。在真实的 Claude Code、Codex 里能否被调用,未验证。
 
 ## 手动安装:按工具选一种
 
