@@ -46,5 +46,5 @@ curl -fsSL https://raw.githubusercontent.com/alex4524/kiroween-credits/main/SKIL
 ## 说明
 
 - 流程和网址按 2026-11-13 实测写成,以官方页面为准:https://kiroween.devpost.com/
-- 中国身份证能否通过身份核验,未验证。
+- 中国身份证可以通过身份核验(2026-11-16 本人实测)。
 - 技能不含任何个人信息。证件照和人脸只在核验页面里拍,不发给 AI。
