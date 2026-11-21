@@ -97,7 +97,7 @@ triggers: Kiroween, 领 Kiro 额度, Kiro 积分, 黑客松领额度, Devpost �
 | 用户 ID | 第 1 步那个 `d-` 开头的 ID |
 | CATEGORY 和项目描述 | 先选一个赛道(从比赛页的赛道列表里选,2026-11-13 实测有 Costume Contest),再写 2 到 3 句英文,说要做什么。写具体一点,太短会被拒 |
 
-3. 项目描述示例(让用户改成自己的):`Category: Costume Contest. I plan to build a small Kiro-powered tool with a spooky Halloween theme. I will use Kiro specs and agent hooks to build and polish it during the submission period.`
+3. **项目描述必须每人不同,不能照抄任何示例。** 2026-11-21 实测:两个账号交了同一段描述,后交的被拒(「一段描述只收一个账号」)。做法:先问用户想做什么(用选择题给 3 个方向让他挑),再用具体细节写 2 到 3 句英文:项目名、谁用、怎么玩、用了 Kiro 的哪个功能。格式参考(**只看结构,内容必须换**):`Category: <赛道>. I am building <项目名>, where <谁> can <做什么>. I will use <Kiro 功能> to <用在哪>.`
 4. **提交前读回核对一遍(你做)。** 逐项读回输入框的值,对照这张清单,有一项对不上就改:
 
 | 核对项 | 必须等于 |
@@ -137,6 +137,7 @@ triggers: Kiroween, 领 Kiro 额度, Kiro 积分, 黑客松领额度, Devpost �
 |---|---|---|
 | 额度申请被拒,说邮箱和主页不属于已报名的人 | 申请时还没报名,或邮箱/主页填错 | 先报名,再核对邮箱和主页,改对后重提 |
 | 被拒,说描述太短 | 项目描述不够 | 写 2 到 3 句具体的英文 |
+| 被拒,说同一描述已被别的账号提交 | 抄了示例或和别人撞了 | 换成自己的项目细节(项目名、玩法)重写,再重提 |
 | 被拒,Kiro ID 不对 | 把邮箱当成了 ID | 去设置页复制 `d-` 开头的 ID |
 | Kiro 页面提示 Subscription Required | 需要订阅才能用 Kiro Web | 不用管,领额度不需要 |
 | 核验按钮是灰的 | 没勾「姓名和证件一致」 | 先改好姓名,再勾 |
